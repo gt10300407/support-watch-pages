@@ -1,24 +1,19 @@
 {
-  "generated_at": "2026-08-14T13:13:53+09:00",
+  "generated_at": "2026-08-14T15:10:03+09:00",
   "last_run": {
-    "id": 4,
-    "started_at": "2026-08-14T12:02:52+09:00",
-    "finished_at": "2026-08-14T12:10:38+09:00",
+    "id": 6,
+    "started_at": "2026-08-14T15:00:09+09:00",
+    "finished_at": "2026-08-14T15:10:03+09:00",
     "collected_count": 1089,
-    "new_count": 542,
+    "new_count": 0,
     "sent_count": 0,
     "notes": {
       "ok": true,
-      "analyzed": 30,
-      "publish": {
-        "pushed": true,
-        "generated": 110,
-        "public_url": "https://gt10300407.github.io/support-watch-pages"
-      }
+      "analyzed": 30
     }
   },
-  "next_run": "2026-08-14T15:00+09:00",
-  "next_send": "2026-08-14T15:00+09:00",
+  "next_run": "2026-08-14T18:00+09:00",
+  "next_send": "2026-08-14T18:00+09:00",
   "run_hours": [
     9,
     12,
@@ -32,28 +27,28 @@
   ],
   "total": 1127,
   "by_eligibility": {
-    "eligible": 3,
-    "ineligible": 91,
-    "review": 16,
-    "unreviewed": 1017
+    "eligible": 6,
+    "ineligible": 111,
+    "review": 23,
+    "unreviewed": 987
   },
   "by_type": {
-    "support": 110
+    "support": 140
   },
   "by_benefit_type": {
-    "certification": 3,
-    "event": 16,
-    "export": 11,
-    "funding": 26,
+    "certification": 4,
+    "event": 30,
+    "export": 16,
+    "funding": 29,
     "loan": 3,
-    "marketing": 9,
-    "other": 28,
+    "marketing": 10,
+    "other": 34,
     "rnd": 14
   },
   "by_user_status": {
-    "unreviewed": 110
+    "unreviewed": 140
   },
-  "analyzed_total": 110,
+  "analyzed_total": 140,
   "engine": "자동 수집 엔진",
   "publisher": "GitHub Pages"
 }
