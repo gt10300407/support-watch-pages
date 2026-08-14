@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:51:36+09:00",
+  "generated_at": "2026-08-14T13:13:53+09:00",
   "last_run": {
     "id": 4,
     "started_at": "2026-08-14T12:02:52+09:00",
@@ -32,19 +32,28 @@
   ],
   "total": 1127,
   "by_eligibility": {
-    "eligible": 4,
+    "eligible": 3,
     "ineligible": 91,
-    "review": 15,
+    "review": 16,
     "unreviewed": 1017
   },
   "by_type": {
-    "event": 97,
-    "office": 134,
-    "support": 896
+    "support": 110
+  },
+  "by_benefit_type": {
+    "certification": 3,
+    "event": 16,
+    "export": 11,
+    "funding": 26,
+    "loan": 3,
+    "marketing": 9,
+    "other": 28,
+    "rnd": 14
   },
   "by_user_status": {
-    "unreviewed": 1127
+    "unreviewed": 110
   },
+  "analyzed_total": 110,
   "engine": "자동 수집 엔진",
   "publisher": "GitHub Pages"
 }
