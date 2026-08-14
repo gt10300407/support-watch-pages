@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:10:38+09:00",
+  "generated_at": "2026-08-14T12:40:32+09:00",
   "last_run": {
     "id": 4,
     "started_at": "2026-08-14T12:02:52+09:00",
@@ -9,7 +9,12 @@
     "sent_count": 0,
     "notes": {
       "ok": true,
-      "analyzed": 30
+      "analyzed": 30,
+      "publish": {
+        "pushed": true,
+        "generated": 110,
+        "public_url": "https://gt10300407.github.io/support-watch-pages"
+      }
     }
   },
   "next_run": "2026-08-14T15:00+09:00",
@@ -36,6 +41,9 @@
     "event": 97,
     "office": 134,
     "support": 896
+  },
+  "by_user_status": {
+    "unreviewed": 1127
   },
   "engine": "자동 수집 엔진",
   "publisher": "GitHub Pages"

@@ -31,7 +31,7 @@
     <div id="system-status" class="system-card">
       <div class="system-head"><span id="status-dot" class="status-dot"></span><b id="status-live">자동실행 정상</b></div>
       <div class="system-grid">
-        <div><small>마지막 갱신</small><strong id="last-generated">2026-08-14T12:10:38+09:00</strong></div>
+        <div><small>마지막 갱신</small><strong id="last-generated">2026-08-14T12:40:32+09:00</strong></div>
         <div><small>다음 수집</small><strong>08-14 15:00</strong></div>
         <div><small>다음 카카오</small><strong>08-14 15:00</strong></div>
       </div>
@@ -39,16 +39,21 @@
     </div>
   </section>
 
-  <section class="metrics">
-    <div class="metric"><span>전체 분석</span><strong>1127</strong><small>누적 공고</small></div>
-    <div class="metric metric-good"><span>신청가능</span><strong>4</strong><small>조건 충족</small></div>
-    <div class="metric metric-warn"><span>확인필요</span><strong>15</strong><small>추가 확인 필요</small></div>
-    <div class="metric metric-office"><span>공간지원</span><strong>134</strong><small>입주·임대·사무실</small></div>
+  <section class="metrics review-metrics">
+    <div class="metric"><span>미검토</span><strong>1127</strong><small>아직 확인 안 함</small></div>
+    <div class="metric metric-good"><span>신청예정</span><strong>0</strong><small>진행 예정</small></div>
+    <div class="metric metric-office"><span>신청완료</span><strong>0</strong><small>접수 완료</small></div>
+    <div class="metric metric-warn"><span>보류</span><strong>0</strong><small>추가 검토</small></div>
+    <div class="metric"><span>검토완료</span><strong>0</strong><small>원문 확인 완료</small></div>
+    <div class="metric metric-bad"><span>제외</span><strong>0</strong><small>진행하지 않음</small></div>
   </section>
 
   <section class="toolbar">
     <div class="tabs" id="tabs">
       <button class="active" data-mode="all">추천 전체</button>
+      <button data-mode="unreviewed">⬜ 미검토</button>
+      <button data-mode="planned">✅ 신청예정</button>
+      <button data-mode="applied">📨 신청완료</button>
       <button data-mode="office">🏢 공간지원</button>
       <button data-mode="money">💰 자금</button>
       <button data-mode="rnd">🧪 R&D</button>
@@ -63,10 +68,19 @@
         <option value="newest">최신순</option>
       </select>
       <select id="elig">
-        <option value="">자격 전체</option>
+        <option value="">AI 판정 전체</option>
         <option value="eligible">🟢 신청가능</option>
         <option value="review">🟡 확인필요</option>
         <option value="ineligible">🔴 신청불가</option>
+      </select>
+      <select id="user-status">
+        <option value="">내 상태 전체</option>
+        <option value="unreviewed">⬜ 미검토</option>
+        <option value="reviewed">👀 검토완료</option>
+        <option value="planned">✅ 신청예정</option>
+        <option value="applied">📨 신청완료</option>
+        <option value="hold">⏸ 보류</option>
+        <option value="excluded">❌ 제외</option>
       </select>
     </div>
   </section>
