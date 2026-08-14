@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Support Watch · 기업지원 레이더</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+  <a class="brand" href="https://gt10300407.github.io/support-watch-pages/index.html">
+    <span class="brand-mark">SW</span>
+    <span><strong>Support Watch</strong><small>기업지원 레이더</small></span>
+  </a>
+  <nav class="navlinks">
+    <a href="https://gt10300407.github.io/support-watch-pages/index.html">대시보드</a>
+    <a href="https://gt10300407.github.io/support-watch-pages/index.html#office">🏢 공간지원</a>
+    <a href="https://gt10300407.github.io/support-watch-pages/index.html#money">💰 자금</a>
+    <a href="https://gt10300407.github.io/support-watch-pages/index.html#review">⚠️ 확인필요</a>
+    <a href="https://gt10300407.github.io/support-watch-pages/system.html">시스템</a>
+  </nav>
+</header>
+
+  <section class="hero">
+    <div>
+      <div class="eyebrow">COMPANY SUPPORT INTELLIGENCE</div>
+      <h1>놓치면 아까운 지원사업만<br><span>실제로 신청할 수 있는지</span> 먼저 본다.</h1>
+      <p>지원금 · R&D · 사무실/입주공간을 회사 조건과 비교해서 정리해.</p>
+    </div>
+    <div id="system-status" class="system-card">
+      <div class="system-head"><span id="status-dot" class="status-dot"></span><b id="status-live">자동실행 정상</b></div>
+      <div class="system-grid">
+        <div><small>마지막 갱신</small><strong id="last-generated">2026-08-14T12:00:03+09:00</strong></div>
+        <div><small>다음 수집</small><strong>08-14 15:00</strong></div>
+        <div><small>다음 카카오</small><strong>08-14 15:00</strong></div>
+      </div>
+      <div class="schedule-line">수집 <b>9 · 12 · 15 · 18시</b> · 카카오 <b>12 · 15 · 18시</b></div>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span>전체 분석</span><strong>585</strong><small>누적 공고</small></div>
+    <div class="metric metric-good"><span>신청가능</span><strong>3</strong><small>조건 충족</small></div>
+    <div class="metric metric-warn"><span>확인필요</span><strong>10</strong><small>추가 확인 필요</small></div>
+    <div class="metric metric-office"><span>공간지원</span><strong>104</strong><small>입주·임대·사무실</small></div>
+  </section>
+
+  <section class="toolbar">
+    <div class="tabs" id="tabs">
+      <button class="active" data-mode="all">추천 전체</button>
+      <button data-mode="office">🏢 공간지원</button>
+      <button data-mode="money">💰 자금</button>
+      <button data-mode="rnd">🧪 R&D</button>
+      <button data-mode="review">⚠️ 확인필요</button>
+      <button data-mode="deadline">⏰ 마감임박</button>
+    </div>
+    <div class="filters">
+      <input id="q" placeholder="공고명 · 기관 · 지원내용 검색">
+      <select id="sort">
+        <option value="recommend">추천순</option>
+        <option value="deadline">마감순</option>
+        <option value="newest">최신순</option>
+      </select>
+      <select id="elig">
+        <option value="">자격 전체</option>
+        <option value="eligible">🟢 신청가능</option>
+        <option value="review">🟡 확인필요</option>
+        <option value="ineligible">🔴 신청불가</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="result-head">
+    <div><h2 id="result-title">추천 공고</h2><p id="result-desc">회사 조건과 연관성이 높은 순서로 정렬했어.</p></div>
+    <div class="count-badge"><b id="shown-count">0</b>건</div>
+  </section>
+
+  <main id="notice-root" class="notice-list"></main>
+
+  <footer class="footer">AI 판정은 검토 보조용이고, 최종 신청 여부는 반드시 공고 원문을 기준으로 확인해.</footer>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-08-14T12:00:03+09:00",
+  "last_run": {
+    "id": 3,
+    "started_at": "2026-08-13T22:02:00+09:00",
+    "finished_at": "2026-08-13T22:11:20+09:00",
+    "collected_count": 589,
+    "new_count": 0,
+    "sent_count": 0,
+    "notes": {
+      "ok": true,
+      "analyzed": 30,
+      "publish": {
+        "pushed": false,
+        "generated": 80,
+        "public_url": ""
+      }
+    }
+  },
+  "next_run": "2026-08-14T15:00+09:00",
+  "next_send": "2026-08-14T15:00+09:00",
+  "run_hours": [
+    9,
+    12,
+    15,
+    18
+  ],
+  "send_hours": [
+    12,
+    15,
+    18
+  ],
+  "total": 585,
+  "by_eligibility": {
+    "eligible": 3,
+    "ineligible": 67,
+    "review": 10,
+    "unreviewed": 505
+  },
+  "by_type": {
+    "event": 96,
+    "office": 104,
+    "support": 385
+  },
+  "engine": "자동 수집 엔진",
+  "publisher": "GitHub Pages"
+}
