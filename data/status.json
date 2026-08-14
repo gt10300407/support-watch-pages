@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T15:10:03+09:00",
+  "generated_at": "2026-08-14T15:10:05+09:00",
   "last_run": {
     "id": 6,
     "started_at": "2026-08-14T15:00:09+09:00",
@@ -9,7 +9,12 @@
     "sent_count": 0,
     "notes": {
       "ok": true,
-      "analyzed": 30
+      "analyzed": 30,
+      "publish": {
+        "pushed": true,
+        "generated": 140,
+        "public_url": "https://gt10300407.github.io/support-watch-pages"
+      }
     }
   },
   "next_run": "2026-08-14T18:00+09:00",
